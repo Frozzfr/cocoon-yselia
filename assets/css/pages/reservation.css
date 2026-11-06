@@ -1,0 +1,9 @@
+/* Page /reservation/ : cadre autour du module Kalendes (son habillage : composants/module-kalendes.css) */
+.kalendes-cadre { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 12px; min-height: 480px; overflow: hidden; }
+.kalendes-secours { margin-top: 14px; font-size: .88rem; color: var(--ink-soft); }
+
+/* Le module Kalendes impose body { color: #0B0643; background-color: #F8F8FF } à toute la page :
+   on rétablit la charte du site (sélecteur plus précis que le leur). */
+html body { background: var(--ground); color: var(--principal); }
+/* Kalendes impose aussi sa couleur à tous les liens de la page (en-tête compris) */
+html body a { color: inherit; }

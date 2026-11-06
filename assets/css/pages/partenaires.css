@@ -1,0 +1,5 @@
+.partners { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 18px; }
+.partner { background: var(--carte); border: 1px solid var(--line); border-radius: 18px; padding: 22px; display: grid; gap: 10px; }
+.partner .logo-ph { height: 70px; border-radius: 10px; border: 1px dashed var(--decor); display: grid; place-items: center; font-family: var(--display); font-style: italic; font-size: 1.3rem; color: var(--accent-texte); }
+.partner .logo-ph img { max-height: 54px; width: auto; }
+.partner p { font-size: .9rem; color: var(--ink-soft); }

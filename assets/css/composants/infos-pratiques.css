@@ -1,0 +1,25 @@
+/* Adresse, téléphone et horaires (bas de l'accueil) */
+.infos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; }
+.infos > div { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.infos h3 { font-size: 1.5rem; }
+.infos-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.hours { width: 100%; border-collapse: collapse; font-size: .93rem; font-variant-numeric: tabular-nums; }
+.hours td { padding: 5px 0; border-bottom: 1px solid var(--line); }
+.hours td:last-child { text-align: right; color: var(--ink-soft); }
+/* Devanture de l'institut (site.devanture) : photo à gauche, infos empilées à droite */
+.infos-pratiques { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+.infos-pratiques .infos { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+.devanture { margin: 0; display: grid; gap: 10px; }
+.devanture img { display: block; width: 100%; height: auto; border-radius: 22px; }
+.devanture figcaption { font-size: .85rem; color: var(--ink-soft); }
+.devanture .note-maquette { margin: 0; }
+.copy { font: 400 .8rem var(--body); border: 1px solid var(--line); background: var(--paper); border-radius: 99px; padding: 4px 12px; cursor: pointer; color: var(--ink-soft); }
+
+@media (max-width: 1020px) {
+  .infos { grid-template-columns: 1fr 1fr; }
+  .infos-pratiques { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .infos-pratiques .infos { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .infos, .infos-pratiques .infos { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,91 @@
+/* =====================================================================================
+   Habillage du module de réservation Kalendes (page /reservation/)
+   -------------------------------------------------------------------------------------
+   Le module appartient à Kalendes (AngularJS chargé depuis kalendes.com) : on ne change
+   que son apparence, jamais son fonctionnement. Ses feuilles de style sont chargées
+   après les nôtres et sa couleur de thème est écrite en style inline : d'où les !important.
+   Ses fenêtres (fiche d'un soin, connexion) sont ajoutées en fin de page, hors du
+   conteneur : chaque règle vise donc les trois zones avec :is(...).
+   Couleurs Kalendes remplacées : violet rgb(171, 83, 202), rouge #EA4A4A,
+   bleu nuit #0B0643, violets #592BCA et #5F2EEA.
+   Si Kalendes renomme ses classes, une partie de l'habillage peut sauter : le module
+   reste utilisable, simplement avec ses couleurs d'origine.
+   ===================================================================================== */
+
+/* 1. Base : police et couleurs du site ------------------------------------------------ */
+#kalendes-widget-container,
+.kalendes-modal,
+.kalendes-full-popup { font-family: var(--body) !important; color: var(--principal); }
+
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is(input, textarea) { font-family: var(--body) !important; color: var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is(input, textarea)::placeholder { color: var(--taupe) !important; opacity: 1; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is(.content, .title, .categorie-h1, .kalendes-full-popup-container, .kalendes-input-label, label) { color: var(--principal) !important; }
+
+/* Couleur de thème appliquée en ligne par Kalendes → --principal (fonds) et --accent-texte (textes) */
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is([style^="color: rgb(171, 83, 202)"], [style*=" color: rgb(171, 83, 202)"], [style^="color: rgb(234, 74, 74)"], [style*=" color: rgb(234, 74, 74)"]) { color: var(--accent-texte) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is([style*="background: rgb(171, 83, 202)"], [style*="background-color: rgb(171, 83, 202)"], [style*="background: rgb(234, 74, 74)"], [style*="background-color: rgb(234, 74, 74)"]) { background: var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) [style*="border-color: rgb(171, 83, 202)"] { border-color: var(--accent-texte) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) md-icon { color: var(--accent-texte) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) :is(input[type="radio"], [style*="accent-color: rgb(171, 83, 202)"]) { accent-color: var(--principal) !important; }
+/* Petit chargeur animé du module */
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) [class*="ldio-"] div { background: var(--accent-texte) !important; }
+
+/* 2. Boutons : pilules --principal, comme sur le reste du site ------------------------ */
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button { border-radius: 99px !important; box-shadow: none !important; transition: background .2s, border-color .2s, opacity .2s; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button:is(.primary, .secondary):not(.bg-white) { background: var(--principal) !important; border-color: var(--principal) !important; color: #fff !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.bordered { border: 1px solid var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.bg-white { background: var(--paper) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.bg-white :is(.kalendes-button-content, .kalendes-button-text, span) { color: var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button:hover { opacity: 1; background: var(--accent-texte) !important; border-color: var(--accent-texte) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.bg-white:hover { background: var(--survol) !important; border-color: var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.disabled { opacity: .45 !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.white { border-color: var(--line) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button.white :is(.kalendes-button-content, .kalendes-button-text, span) { color: var(--principal) !important; }
+:is(#kalendes-widget-container, .kalendes-modal, .kalendes-full-popup) .kalendes-button-text span { font-family: var(--body); font-weight: 500; letter-spacing: .02em; text-transform: none; }
+
+/* 3. Catalogue : catégories, recherche, liste des soins ------------------------------ */
+#kalendes-widget-container .categorie-h1 { font-family: var(--display) !important; font-size: 1.6rem !important; font-weight: 500 !important; text-decoration: none !important; }
+#kalendes-widget-container .categorie-item { color: var(--ink-soft) !important; }
+#kalendes-widget-container .categorie-item.selected { color: var(--accent-texte) !important; font-weight: 500; }
+#kalendes-widget-container .root-item,
+#kalendes-widget-container .separator { color: var(--accent-texte) !important; }
+#kalendes-widget-container .booking-famille-box-libelle { background: var(--principal) !important; color: #fff !important; font-family: var(--display); font-size: 1.2rem; font-weight: 500; letter-spacing: .02em; }
+#kalendes-widget-container .product-image { border-radius: 14px; overflow: hidden; }
+#kalendes-widget-container .product-name { font-family: var(--display); font-size: 1.3rem; color: var(--principal) !important; }
+#kalendes-widget-container .product-description { color: var(--ink-soft) !important; }
+:is(#kalendes-widget-container, .kalendes-modal) :is(.product-price, .article-price) { color: var(--principal) !important; font-weight: 500; }
+:is(#kalendes-widget-container, .kalendes-modal) :is(.product-duree, .article-duree) { color: var(--taupe) !important; }
+#kalendes-widget-container .booking-search-input input { border-radius: 99px !important; }
+#kalendes-widget-container .menu-content-item-shopping-cart { color: var(--principal) !important; }
+#kalendes-widget-container .notif_cart { background: var(--accent-texte) !important; }
+
+/* 4. Réservation : sélection, praticienne, date et heure ----------------------------- */
+#kalendes-widget-container .platform-booking-confirmation { background: transparent !important; }
+/* Titres des étapes : Sélection, Choix de la date et heure, Vos informations, Paiement, Message */
+#kalendes-widget-container :is(.generic-title, .basket4Summary-title, .proposition-advanced-title, .accountSummary-title) { font-family: var(--display) !important; font-size: 1.9rem !important; font-weight: 500 !important; color: var(--principal) !important; }
+#kalendes-widget-container :is(.proposition-detailed, .proposition-advanced-item, .accountSummary-item, .payment-message, .textarea-input) { border-color: var(--line) !important; border-radius: 18px !important; }
+#kalendes-widget-container .article-name { font-family: var(--display); font-size: 1.5rem !important; color: var(--principal) !important; letter-spacing: 0; }
+#kalendes-widget-container .article-description { color: var(--ink-soft) !important; letter-spacing: 0; }
+/* Choix de la praticienne */
+#kalendes-widget-container .pro { border-radius: 99px !important; border-color: var(--line) !important; }
+#kalendes-widget-container .pro.selected { border-color: var(--principal) !important; }
+#kalendes-widget-container .name { color: var(--principal) !important; }
+
+/* Calendrier : jours et créneaux en pilules, créneau choisi en --principal */
+#kalendes-widget-container .proposition-detailed .slots-container .date-title { font-weight: 500 !important; color: var(--principal); }
+#kalendes-widget-container .kalendes-box .kalendes-container { background: var(--paper) !important; border: 1px solid var(--line) !important; border-radius: 99px !important; color: var(--principal) !important; font-weight: 500 !important; transition: background .2s, border-color .2s; }
+#kalendes-widget-container .kalendes-box .kalendes-container:hover { background: var(--survol) !important; border-color: var(--accent-texte) !important; }
+#kalendes-widget-container .kalendes-box.selected .kalendes-container { background: var(--principal) !important; border-color: var(--principal) !important; color: #fff !important; }
+#kalendes-widget-container .kalendes-body { font-variant-numeric: tabular-nums; }
+
+/* 5. Paiement ----------------------------------------------------------------------- */
+#kalendes-widget-container :is(.secure-pay, .secure-pay-text, .kalendes-icon-md.primary) { color: var(--taupe) !important; }
+
+/* 6. Fenêtres : fiche d'un soin et connexion / inscription ---------------------------- */
+.kalendes-backdrop { background: color-mix(in srgb, var(--sombre) 45%, transparent) !important; }
+.kalendes-modal .kalendes-modal-container { border-radius: 22px !important; overflow: hidden; }
+.kalendes-full-popup .kalendes-full-popup-container { background: var(--ground) !important; }
+.kalendes-full-popup .title { font-family: var(--display) !important; font-weight: 500 !important; font-size: 2.2rem !important; }
+.kalendes-full-popup input { background: var(--paper) !important; border: 1px solid var(--line) !important; border-radius: 12px !important; }
+.kalendes-full-popup input:focus { border-color: var(--accent-texte) !important; }
+.kalendes-full-popup .platform-account-login-signin { background: var(--paper) !important; border-color: var(--line) !important; border-radius: 22px; }

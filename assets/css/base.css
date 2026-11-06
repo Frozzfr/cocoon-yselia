@@ -1,0 +1,38 @@
+/* Réinitialisation, typographie et utilitaires communs à toutes les pages */
+* { box-sizing: border-box; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--body); font-weight: 400; font-size: var(--step-0); line-height: 1.6; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--entete); }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+
+h1, h2, h3 { font-family: var(--display); font-weight: 500; color: var(--titre); line-height: 1.1; margin: 0; text-wrap: balance; }
+h1 { font-size: var(--step-4); }
+h2 { font-size: var(--step-3); }
+h3, .h3 { font-size: var(--step-2); }
+h1 em, h2 em { font-style: italic; color: var(--accent-titre); }
+p { margin: 0; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--principal); outline-offset: 3px; border-radius: 4px; }
+/* Sur les fonds sombres (bandeau, carte cadeau, pied de page), le contour de focus passe au texte clair */
+:is(.proto, .card.cadeau, footer) :focus-visible { outline-color: var(--clair-sur-sombre); }
+/* Éléments natifs du navigateur aux couleurs du site : boutons radio, sélection de texte, textes indicatifs */
+:root { accent-color: var(--accent-texte); }
+::selection { background: var(--selection); color: var(--principal); }
+::placeholder { color: var(--taupe); opacity: 1; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: 16px; top: -60px; z-index: 50; background: var(--principal); color: var(--paper); padding: 10px 16px; border-radius: 8px; }
+.skip-link:focus { top: 12px; }
+
+.wrap { max-width: 1160px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-texte); font-weight: 500; }
+.eyebrow::before { content: ""; width: 24px; height: 1px; background: var(--decor); flex-shrink: 0; }
+.lead { font-size: 1.12rem; color: var(--ink-soft); max-width: 58ch; font-weight: 300; }
+.lead--small { font-size: 1rem; }
+
+/* Repères de maquette : contenus provisoires à remplacer */
+.todo { color: var(--todo); border-bottom: 1px dashed currentColor; font-size: .92em; }
+.chip-todo { display: inline-block; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--todo); border: 1px dashed var(--todo); border-radius: 99px; padding: 2px 10px; background: var(--paper); }
+.note-maquette { margin-top: 14px; }
+.note-maquette--avant { margin: 0 0 18px; }

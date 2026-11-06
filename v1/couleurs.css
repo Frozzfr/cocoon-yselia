@@ -1,0 +1,42 @@
+/* Couleurs de la version 1, inspirées de la maquette « Le cocoon d'Yselia » : ivoire, mauves grisés
+   (titres, boutons, cartes) et verts eucalyptus / sauge (bandes, détails, pied de page).
+   Tous les composants n'emploient que les rôles ci-dessous ; changer de palette = changer ces valeurs
+   (et la balise theme-color des pages, égale à --entete).
+   Contrastes AA à respecter : textes sur --ground, --paper, --bande, --carte et --entete ; --accent-titre réservé aux grands titres ;
+   --decor jamais employé pour du texte. */
+:root {
+  /* Surfaces */
+  --ground: #faf7f2;            /* fond des pages : ivoire doux */
+  --paper: #ffffff;             /* champs, pastilles, contrôles */
+  --bande: #eaeee5;             /* bandes de section (.block.tint) : vert eucalyptus très pâle */
+  --carte: #e8e1e3;             /* cartes et encadrés : mauve grisé très pâle */
+  --entete: #faf7f2;            /* en-tête collant, barre d'actions mobile : ivoire */
+  --sombre: #5a675d;            /* pied de page, bandeau maquette : vert sauge foncé */
+  --cadeau: #6b5a6d;            /* fond de la carte cadeau : mauve grisé foncé */
+  --survol: #f1ecee;            /* fond de survol des contrôles blancs */
+  --selection: #e2d9d9;         /* fond du texte sélectionné */
+
+  /* Textes et accents */
+  --ink: #4d4450;               /* texte courant */
+  --ink-soft: #625a63;          /* texte secondaire */
+  --taupe: #625a63;             /* petits textes tertiaires (durées, dates) */
+  --principal: #6b5a6d;         /* boutons principaux (texte blanc), navigation, états choisis : mauve grisé foncé */
+  --accent-texte: #4f3e50;      /* surtitres, liens d'action, survol du bouton principal : mauve aubergine */
+  --accent-titre: #7d6e80;      /* mots en italique des grands titres : mauve grisé moyen */
+  --clair-sur-sombre: #faf7f2;  /* texte clair sur --sombre et --cadeau */
+  --titre-sur-sombre: #ece6e8;  /* titres et surtitres sur --sombre et --cadeau : mauve très pâle */
+  --decor: #8f9e87;             /* filets, cercles, étoiles, points, pointillés, arches photo (jamais du texte) : vert sauge */
+  --line: #d3d5cc;              /* traits et bordures : gris sauge */
+  --titre: #4f3e50;             /* titres h1 à h3 : mauve aubergine */
+  --todo: #74390f;              /* repères « à compléter » de la maquette */
+
+  /* Teintes des visuels d'attente des produits (flacons, pots, coffrets), une par produit */
+  --teinte-1: #e8e1e3;          /* sérum éclat visage */
+  --teinte-2: #dfe5da;          /* crème hydratante jour */
+  --teinte-3: #f1ece4;          /* huile de massage relaxante */
+  --teinte-4: #e3dde5;          /* gommage corps au sucre */
+  --teinte-5: #e6eadf;          /* bougie de massage */
+  --teinte-6: #ece6e8;          /* huile soin des cuticules */
+  --teinte-7: #d9e0d3;          /* crème mains réparatrice */
+  --teinte-8: #d8cfd8;          /* coffret cocooning visage */
+}

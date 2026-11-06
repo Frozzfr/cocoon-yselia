@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Réservation en ligne · Le Cocoon d'Ysélia</title>
+    <meta name="description" content="Réservez votre soin au Cocoon d'Ysélia en ligne, 7 jours sur 7. Commandez aussi nos produits ou offrez une carte cadeau." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#faf7f2" />
+    <link rel="icon" type="image/png" href="../assets/img/logo.png?v=88cfdb2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" />
+    <link rel="stylesheet" href="couleurs.css?v=88cfdb2" />
+    <link rel="stylesheet" href="../assets/css/styles.css?v=88cfdb2" />
+    <script type="module" src="../assets/js/main.js?v=88cfdb2"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <!-- Composant : BandeauMaquette -->
+    <div class="proto">
+      <div class="wrap">Maquette · les photos et les textes <span class="proto-todo">soulignés en pointillés</span> sont provisoires</div>
+    </div>
+
+    <!-- Composant : EnTete -->
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Le Cocoon d'Ysélia, accueil">
+          <img src="../assets/img/logo.png?v=88cfdb2" alt="" width="54" height="54" />
+          <span>Le Cocoon d'Ysélia</span>
+        </a>
+        <nav class="main" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a href="nous-connaitre.html">Nous connaître</a>
+          <a href="soins.html">Nos soins</a>
+          <a href="boutique.html">Boutique</a>
+          <a href="actualites.html">Actualités</a>
+          <a href="partenaires.html">Partenaires</a>
+        </nav>
+        <div class="actions">
+          <a class="btn btn-ghost" href="boutique.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z" />
+              <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+            </svg>
+            Boutique
+          </a>
+          <a class="btn btn-primary" href="reservation.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <rect x="3.5" y="5" width="17" height="15.5" rx="2" />
+              <path d="M3.5 10h17M8 3v4M16 3v4" />
+            </svg>
+            Prendre RDV
+          </a>
+        </div>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Ouvrir le menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+        </button>
+      </div>
+      <div class="wrap">
+        <nav class="mobile-nav" id="mnav" aria-label="Menu mobile">
+          <a href="index.html">Accueil</a>
+          <a href="nous-connaitre.html">Nous connaître</a>
+          <a href="soins.html">Nos soins</a>
+          <a href="boutique.html">Boutique</a>
+          <a href="actualites.html">Actualités</a>
+          <a href="partenaires.html">Partenaires</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="block">
+        <div class="wrap">
+          <div class="head">
+            <span class="eyebrow">Réservation en ligne</span>
+            <h1>Réservez <em>votre moment</em></h1>
+            <p class="lead">
+              Choisissez votre soin puis votre créneau : la réservation est confirmée par SMS ou par e-mail. Vous pouvez aussi commander nos produits ou offrir une carte cadeau.
+            </p>
+          </div>
+
+          <!-- Composant : ModuleKalendes -->
+          <div class="kalendes-cadre">
+            <div id="kalendes-widget-container" data-kalendes-host="lecocoondyselia"></div>
+          </div>
+          <p class="kalendes-secours">
+            Le module ne s'affiche pas ? <a href="https://www.kalendes.com/site/Lecocoondyselia" target="_blank" rel="noopener">Ouvrir la réservation sur Kalendes</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Ordre imposé par Kalendes : la configuration doit être chargée avant widget.js -->
+      <script src="../assets/js/kalendes-config.js?v=88cfdb2"></script>
+      <script src="https://www.kalendes.com/site/scripts/widget.js"></script>
+    </main>
+
+    <!-- Composant : PiedDePage -->
+    <footer>
+      <div class="wrap">
+        <div class="brandf">
+          <img src="../assets/img/logo.png?v=88cfdb2" alt="" width="84" height="84" />
+          <p>Institut de beauté à Ribécourt-Dreslincourt.<br />Soins du visage, massages, onglerie, épilation.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Le site</h2>
+          <a href="nous-connaitre.html">Nous connaître</a>
+          <a href="soins.html">Nos soins</a>
+          <a href="boutique.html">Boutique</a>
+          <a href="actualites.html">Actualités</a>
+          <a href="partenaires.html">Partenaires</a>
+        </div>
+        <div>
+          <h2 class="footer-title">Contact</h2>
+          <p>234 Rue de Paris<br />60170 Ribécourt-Dreslincourt</p>
+          <p class="footer-phone">07 77 77 71 58</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Suivez-nous</h2>
+          <span class="todo">Instagram</span>
+          <span class="todo">Facebook</span>
+          <a href="https://share.google/D2KofUV6FfEvg5KIL" target="_blank" rel="noopener">Avis Google</a>
+        </div>
+        <div class="legal">
+          <span>© 2026 Le Cocoon d'Ysélia</span>
+          <span class="todo">Mentions légales</span>
+          <span class="todo">CGV</span>
+          <span class="todo">Politique de confidentialité</span>
+          <span class="todo">Livraison &amp; retours</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Composant : BarreMobile -->
+    <nav class="dock" aria-label="Actions rapides">
+      <a class="btn btn-ghost" href="boutique.html">Boutique</a>
+      <a class="btn btn-primary" href="reservation.html">Prendre RDV</a>
+    </nav>
+
+  </body>
+</html>

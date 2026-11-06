@@ -1,0 +1,34 @@
+/* Bandeau "maquette" (affiché tant que site.maquette vaut true) */
+.proto { background: var(--sombre); color: var(--clair-sur-sombre); font-size: .8rem; text-align: center; }
+.proto .wrap { padding-block: 6px; }
+.proto-todo { border-bottom: 1px dashed currentColor; }
+
+/* En-tête collant (--entete), textes en --principal.
+   --line y est redéfini pour que tous les traits de l'en-tête et du menu mobile se fondent dans sa couleur. */
+header.top { --line: color-mix(in srgb, var(--principal) 18%, var(--entete)); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--entete) 96%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; align-items: center; gap: 24px; padding-block: 10px; }
+/* Le second conteneur ne porte que le menu mobile : aucune hauteur tant qu'il est fermé */
+header.top .wrap + .wrap { padding-block: 0; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+.brand img { width: 54px; height: 54px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px var(--decor); }
+.brand span { font-family: var(--display); font-style: italic; font-size: 1.45rem; line-height: 1; }
+nav.main { display: flex; gap: 22px; margin-left: auto; }
+nav.main a { text-decoration: none; font-size: .92rem; color: var(--principal); padding-block: 6px; border-bottom: 1px solid transparent; }
+nav.main a:hover, nav.main a[aria-current="page"] { color: var(--principal); border-bottom-color: var(--principal); }
+.actions { display: flex; gap: 10px; align-items: center; }
+
+/* Menu mobile */
+.burger { display: none; background: none; border: 1px solid var(--line); border-radius: 10px; width: 44px; height: 44px; cursor: pointer; color: var(--principal); margin-left: auto; }
+.mobile-nav { display: none; }
+.mobile-nav a[aria-current="page"] { font-weight: 500; text-decoration: underline; text-underline-offset: 6px; }
+
+@media (max-width: 1020px) {
+  nav.main, header.top .actions { display: none; }
+  .burger { display: grid; place-items: center; }
+  .mobile-nav.open { flex: 1; display: grid; gap: 2px; padding-block: 8px 16px; border-top: 1px solid var(--line); }
+  .mobile-nav a { text-decoration: none; padding: 12px 4px; font-size: 1.05rem; border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 700px) {
+  .brand span { font-size: 1.2rem; }
+  .brand img { width: 46px; height: 46px; }
+}

@@ -1,0 +1,36 @@
+/* Héros */
+.hero .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; padding-block: 64px 80px; }
+.hero-text { display: grid; gap: 22px; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
+.rating { display: flex; align-items: center; gap: 10px; font-size: .92rem; color: var(--ink-soft); }
+.stars { color: var(--decor); letter-spacing: 2px; }
+.hero-visual { position: relative; max-width: 440px; justify-self: center; width: 100%; }
+.hero-visual .arch { aspect-ratio: 4 / 5; max-width: 100%; }
+.hero-visual .ph-label { left: auto; right: 16px; }
+.medal { position: absolute; left: -28px; bottom: -28px; width: 168px; height: 168px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px var(--decor), 0 18px 40px -18px color-mix(in srgb, var(--sombre) 45%, transparent); padding: 8px; }
+.medal img { width: 100%; height: 100%; }
+
+/* Deux portes : rendez-vous et boutique */
+.doors { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.door { display: grid; grid-template-columns: 120px 1fr; gap: 22px; align-items: center; padding: 26px; background: var(--carte); border: 1px solid var(--line); border-radius: 22px; text-decoration: none; transition: border-color .2s, box-shadow .2s; }
+.door:hover { border-color: var(--decor); box-shadow: 0 16px 40px -24px color-mix(in srgb, var(--sombre) 35%, transparent); }
+.door .arch { aspect-ratio: 3 / 4; }
+.door div { display: grid; gap: 8px; min-width: 0; }
+.door .go { font-weight: 500; color: var(--accent-texte); }
+
+/* Aperçu des catégories de soins (lien vers la catégorie sur /soins/) */
+.apercu-soins { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0 24px; border-top: 1px solid var(--line); }
+.apercu-soin { padding: 22px 0; border-bottom: 1px solid var(--line); display: grid; gap: 6px; align-content: start; text-decoration: none; }
+.apercu-soin h3 { font-size: 1.5rem; transition: color .2s; }
+.apercu-soin:hover h3 { color: var(--accent-texte); }
+.apercu-soin p { color: var(--ink-soft); font-size: .92rem; }
+
+@media (max-width: 1020px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .hero-visual { max-width: 340px; }
+}
+@media (max-width: 700px) {
+  .doors { grid-template-columns: 1fr; }
+  .door { grid-template-columns: 84px 1fr; padding: 18px; gap: 16px; }
+  .medal { width: 120px; height: 120px; left: -8px; bottom: -20px; }
+}

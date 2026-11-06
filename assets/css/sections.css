@@ -1,0 +1,29 @@
+/* Sections, titres de section, cartes et emplacements photo, partagés entre les pages */
+.block { padding-block: 72px; }
+.block.tint { background: var(--bande); border-block: 1px solid var(--line); }
+.head { display: grid; gap: 12px; margin-bottom: 36px; }
+.head.row { grid-template-columns: 1fr auto; align-items: end; }
+.head--flat { margin: 0; }
+
+.card { background: var(--carte); border: 1px solid var(--line); border-radius: 22px; padding: 28px; display: grid; gap: 14px; }
+.card-text { color: var(--ink-soft); }
+/* Cartes et encadrés (--carte) : traits plus foncés pour rester visibles sur leur fond coloré */
+.card, .door, .product, .perk, .partner, .slider, .carte-groupe { --line: color-mix(in srgb, var(--principal) 16%, var(--carte)); }
+
+/* Arche : forme signature, utilisée pour les photos (attente en vert sauge, --decor) */
+.arch { border-radius: 999px 999px 18px 18px; overflow: hidden; position: relative; background:
+  radial-gradient(120% 80% at 30% 20%, color-mix(in srgb, var(--paper) 75%, var(--decor)) 0%, transparent 60%),
+  radial-gradient(90% 70% at 80% 90%, color-mix(in srgb, var(--decor) 85%, var(--principal)) 0%, transparent 65%),
+  linear-gradient(160deg, color-mix(in srgb, var(--decor) 55%, var(--paper)), color-mix(in srgb, var(--decor) 92%, var(--principal))); }
+.arch img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Emplacement photo en attendant les vraies images (couleurs des bandes et des cartes) */
+.ph { position: relative; background:
+  radial-gradient(100% 80% at 20% 10%, var(--ground) 0%, transparent 60%),
+  linear-gradient(150deg, color-mix(in srgb, var(--bande) 50%, var(--paper)), var(--carte)); display: grid; place-items: center; color: var(--ink-soft); }
+.ph-label { position: absolute; left: 12px; bottom: 12px; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; background: color-mix(in srgb, var(--paper) 85%, transparent); padding: 4px 10px; border-radius: 99px; color: var(--ink-soft); }
+
+@media (max-width: 700px) {
+  .block { padding-block: 52px; }
+  .head.row { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,1656 @@
+{
+  "majLe": "2026-10-24",
+  "source": "Kalendes (lecocoondyselia)",
+  "categories": [
+    {
+      "id": 15350,
+      "nom": "Épilations",
+      "ancre": "epilations",
+      "nombre": 41,
+      "prixMin": 6,
+      "sousCategories": [
+        {
+          "id": 510685,
+          "nom": "Épilations dames visage",
+          "prestations": [
+            {
+              "id": 880281,
+              "nom": "Sourcils création de ligne",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 14,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Création de la ligne de sourcils selon la forme de vos yeux et de votre visage puis prix entretien la fois suivante.",
+                "Si plus de 2 mois non épilés."
+              ]
+            },
+            {
+              "id": 644462,
+              "nom": "Sourcils fil",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 14,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 2420740,
+              "nom": "Sourcils + lèvre+ menton",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation à la cire des sourcils peu fournis, de la lèvre et du menton"
+              ]
+            },
+            {
+              "id": 74699,
+              "nom": "Sourcils entretien - 6 sem",
+              "type": "PRESTATION",
+              "duree": 10,
+              "prix": 10,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 244068,
+              "nom": "Joues ou cou ou nuque",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 12,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 74826,
+              "nom": "Lèvre",
+              "type": "PRESTATION",
+              "duree": 10,
+              "prix": 9,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243686,
+              "nom": "Visage Lèvre Menton Joues",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 24,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation lèvres menton joues"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 170055,
+          "nom": "Épilations dames",
+          "prestations": [
+            {
+              "id": 2425251,
+              "nom": "Maillot brésilien",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 28,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation maillot triangle échancré lèvres et sif inclus"
+              ]
+            },
+            {
+              "id": 2491177,
+              "nom": "Interfessier",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 6,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 331200,
+              "nom": "Épilation sourcils design",
+              "type": "FORFAIT",
+              "duree": 35,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation pince",
+                "Teinture sourcils",
+                "Correction fard et crayon"
+              ]
+            },
+            {
+              "id": 74701,
+              "nom": "Aisselles",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation réalisée à la cire chaude sans bande. La cire est appliquée en plusieurs bandes selon le sens de pousse du poil pour un retraIt en douceur.",
+                "Nous utilisons une cire de qualité supérieure de dernière génération, sans colophane qui se travaille à basse température."
+              ]
+            },
+            {
+              "id": 74708,
+              "nom": "1/2 bras",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation à la cire avec bandes",
+                "Cire douce et fruité sans résidus et sans colophane"
+              ]
+            },
+            {
+              "id": 74709,
+              "nom": "Bras complet",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 74703,
+              "nom": "1/2 jambe",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation à la cire avec bandes douce et fruité sans résidus et sans colophane"
+              ]
+            },
+            {
+              "id": 244070,
+              "nom": "Cuisses",
+              "type": "PRESTATION",
+              "duree": 25,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 74704,
+              "nom": "Jambe completes",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 30,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 74702,
+              "nom": "Maillot simple",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 76778,
+              "nom": "Maillot échancré",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 76779,
+              "nom": "Maillot intégral",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 32,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Maillot intégral ou bande restante milieu",
+                "Lèvres et sif inclus"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 445153,
+          "nom": "Forfaits épilations dames",
+          "prestations": [
+            {
+              "id": 2420782,
+              "nom": "1/2 jb+ mllt brésilien+aiss",
+              "type": "PRESTATION",
+              "duree": 65,
+              "prix": 52,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "52€ à la place de 61€",
+                "Maillot brésilien ou ticket de metro",
+                "Spécial tanga ou string",
+                "Épilation très échancrée en ne laissant qu'un petit triangle ou une petite bande devant.",
+                "Très proche du ticket de métro, le maillot brésilien est également très en vogue chez les filles qui portent des tangas ou des strings. Il s’agit ici de s’épiler de façon très échancrée de façon à laisser un petit triangle ou une petite bande sur le devant du pubis. La pointe du triangle doit s’arrêter juste au-dessus de la vulve."
+              ]
+            },
+            {
+              "id": 2420784,
+              "nom": "Jb comp + mllt brésil +aiss",
+              "type": "PRESTATION",
+              "duree": 85,
+              "prix": 61,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 71€ soit 15%"
+              ]
+            },
+            {
+              "id": 1980640,
+              "nom": "1/2 jb + maillot simple + aiss",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 42,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 50€",
+                "Maillot simple = dessus du pubis et ce qui dépasse du maillot de bain"
+              ]
+            },
+            {
+              "id": 1980641,
+              "nom": "1/2jb+mllt échancré +aiss",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 48,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 57€ soit une réduction de 15%",
+                "Plus prononcé que le maillot classique. En triangle en gardant la partie supérieure qui ne dépasse pas du maillot de bain."
+              ]
+            },
+            {
+              "id": 1980642,
+              "nom": "1/2jb+mllt int+aiss",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 56,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 65€ soit une réduction de 15%",
+                "Maillot intégral = dessous dessus nickel sans aucun poils"
+              ]
+            },
+            {
+              "id": 1980643,
+              "nom": "Jb comp+mllt s+aiss",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 51,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 60€"
+              ]
+            },
+            {
+              "id": 1980644,
+              "nom": "Jb comp+ mllt éch+aiss",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 57,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 67€ soit 15%"
+              ]
+            },
+            {
+              "id": 1980666,
+              "nom": "Jb comp+mllt int+aiss",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Initialement 75€"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 37675,
+          "nom": "Épilations hommes",
+          "prestations": [
+            {
+              "id": 1916936,
+              "nom": "Sourcils creation homme",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 18,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 196900,
+              "nom": "Sourcils homme entretien -4 semaines",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 13,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 1437734,
+              "nom": "Nuque homme",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 76993,
+              "nom": "Aisselles homme",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 18,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243781,
+              "nom": "Avant bras homme",
+              "type": "PRESTATION",
+              "duree": 25,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243782,
+              "nom": "Bras complet homme",
+              "type": "PRESTATION",
+              "duree": 40,
+              "prix": 32,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243784,
+              "nom": "Épaules",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 18,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243785,
+              "nom": "1/2 dos ou 1/2 torse",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation du bas du dos ou du haut du dos à la cire avec bandes sans colophane"
+              ]
+            },
+            {
+              "id": 243783,
+              "nom": "Bas du dos homme",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 76992,
+              "nom": "Dos complet ou torse complet homme",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 36,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243786,
+              "nom": "Fesses ou ventre",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243773,
+              "nom": "Demi-jambes homme",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 23,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243776,
+              "nom": "Cuisses homme",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 28,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243774,
+              "nom": "Jambes complètes homme",
+              "type": "PRESTATION",
+              "duree": 40,
+              "prix": 42,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15361,
+      "nom": "Regard",
+      "ancre": "regard",
+      "nombre": 5,
+      "prixMin": 15,
+      "sousCategories": [
+        {
+          "id": 15361,
+          "nom": "Regard",
+          "prestations": [
+            {
+              "id": 2420777,
+              "nom": "Sourcils design",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Épilation à la cire et pince + teinture pour les redessiner."
+              ]
+            },
+            {
+              "id": 2014409,
+              "nom": "Rehaussement de cils et teinture de cils",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 55,
+              "afficherPrix": true,
+              "reservable": false,
+              "description": [
+                "Le rehaussement permet d'ouvrir le regard en conférant à votre ligne de cils une élégante courbure naturelle.",
+                "Une teinture des cils vient renforcer cet effet \"yeux de biche\"\" en apportant intensité et volume aux cils trop clairs ou trop fins.",
+                "Étirés par le rehaussement, colorés et gainés par la teinture, vos cils ne nécessitent plus aucun maquillage pendant plusieurs semaines !\"",
+                "Formule vegan contenant des ingrédient naturels aux vertus reconnues prenant soin de vos cils avec application en fin de soin du sérum réparateur épaississant."
+              ]
+            },
+            {
+              "id": 2625814,
+              "nom": "Browlift + teinture",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 243402,
+              "nom": "Teintures sourcils",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Teinture qui teinte la peau sur quelques jours et le poil jusqu'à 3 semaines"
+              ]
+            },
+            {
+              "id": 243403,
+              "nom": "Teinture cils",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "En noir , en marron ou violet"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15355,
+      "nom": "Mains et pieds",
+      "ancre": "mains-et-pieds",
+      "nombre": 16,
+      "prixMin": 1,
+      "sousCategories": [
+        {
+          "id": 445163,
+          "nom": "Soins des mains et des pieds",
+          "prestations": [
+            {
+              "id": 544224,
+              "nom": "Massage mains ou pieds",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 20,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Découvrez le bien être et le lâcher prise tout en prenant soin de vos mains ou vos pieds"
+              ]
+            },
+            {
+              "id": 128809,
+              "nom": "Manucure",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 22,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Limage des ongles, cuticules, nutrition"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 510687,
+          "nom": "Vernis mains",
+          "prestations": [
+            {
+              "id": 2132963,
+              "nom": "Vernis semi permanent baby boomer ou baby color",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 41,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Preparation ongles + vernis semi permanent dégradé 5 € suppl que prix de base"
+              ]
+            },
+            {
+              "id": 2061210,
+              "nom": "Vernis semi permanent renforcé mains couleur",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 36,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Pose de vernis semi permanent avec base de tenue renforcé lissante",
+                "Tenue 3 semaines",
+                "Après 4 semaines nous vous recommandons fortement de venir faire votre dépose ou dépose /repose",
+                "Formulation spéciale Hema Free hautement biocompatible et est conçue pour minimiser les risques d'allergies et d'irritations. Les couleurs sont hautement pigmentées et garantissent une couverture parfaite à 100% en un seul passage."
+              ]
+            },
+            {
+              "id": 1971182,
+              "nom": "Nail art",
+              "type": "PRESTATION",
+              "duree": 10,
+              "prix": 1,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Premier ongle offert selon la complexité du nail art demandé , 1€ a 15€ supplémentaire si déco sur tout les doigts"
+              ]
+            },
+            {
+              "id": 1971181,
+              "nom": "Ongle cassé",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 4.5,
+              "afficherPrix": false,
+              "reservable": false,
+              "description": [
+                "Renfort en gel ou reconstruction total(par ongle)(chablon +acrygel)"
+              ]
+            },
+            {
+              "id": 244071,
+              "nom": "Pose de vernis classique",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Limage de l'ongle et pose de vernis classique"
+              ]
+            },
+            {
+              "id": 74724,
+              "nom": "Dépose vernis semi-permanent sans repose",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 11,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "11 € sans faire de repose derrière"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 510688,
+          "nom": "Pieds",
+          "prestations": [
+            {
+              "id": 2348870,
+              "nom": "Callus peeling + pédicure esthétique",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 60,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Avec une grande délicatesse, sans utiliser d’acides, CALLUSPEELING VEGETAL, permet d’éliminer facilement, sans lames ni fraises, les callosités et les fissures, donnant aux pieds une incroyable douceur et une sensation infinie de légèreté.",
+                "Soin des ongles (coupage, limage, cuticulles)",
+                "Massage"
+              ]
+            },
+            {
+              "id": 2649208,
+              "nom": "Calluspelling",
+              "type": "PRESTATION",
+              "duree": 40,
+              "prix": 38,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Soin anti callosites pour limiter le risque de crevasse",
+                "Retrouvez une peau lisse et confortable"
+              ]
+            },
+            {
+              "id": 2061206,
+              "nom": "Pose de vernis semi permanent pieds+dépose",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 42,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Dépose du semi-permanent, repose du nouveau vernis, préparation des ongles incluse",
+                "Formulation spéciale Hema Free hautement biocompatible et est conçue pour minimiser les risques d'allergies et d'irritations. Les couleurs sont hautement pigmentées et garantissent une couverture parfaite à 100% en un seul passage."
+              ]
+            },
+            {
+              "id": 2581664,
+              "nom": "Semi permanent pieds",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 36,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 155590,
+              "nom": "Beaute des pieds entretien",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 36,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Bain+ pédicure+callosités + crème de soin"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 500409,
+          "nom": "Forfaits mains et pieds",
+          "prestations": [
+            {
+              "id": 2294267,
+              "nom": "Vernis semi-permanent mains + vernis semi-permanent pieds",
+              "type": "PRESTATION",
+              "duree": 120,
+              "prix": 68,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Forfait mains et pieds, préparation des cuticules , pose de vernis semi (nail art simple)",
+                "Durée 3 semaines jusqu'a 1 mois et demi sur les pieds",
+                "Formulation spéciale Hema Free hautement biocompatible et est conçue pour minimiser les risques d'allergies et d'irritations. Les couleurs sont hautement pigmentées et garantissent une couverture parfaite à 100% en un seul passage."
+              ]
+            },
+            {
+              "id": 2339544,
+              "nom": "Calluspeeling pose de semi-permanent pieds",
+              "type": "PRESTATION",
+              "duree": 100,
+              "prix": 72,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Avec une grande délicatesse, sans utiliser d’acides, CALLUSPEELING VEGETAL, permet d’éliminer facilement, sans lames ni fraises, les callosités et les fissures, donnant aux pieds une incroyable douceur et une sensation infinie de légèreté",
+                "Travail des cuticule",
+                "Pose du vernis semi permanent",
+                "Massage"
+              ]
+            },
+            {
+              "id": 1971178,
+              "nom": "Beauté des pieds+ semi-permanent",
+              "type": "PRESTATION",
+              "duree": 100,
+              "prix": 66,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Soin complet des pieds, gommage, trempage , préparation des cuticules , pose de semi permanent couleur ou french et application d'une crème hydratante."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15354,
+      "nom": "Maquillage",
+      "ancre": "maquillage",
+      "nombre": 5,
+      "prixMin": 5,
+      "sousCategories": [
+        {
+          "id": 15354,
+          "nom": "Maquillage",
+          "prestations": [
+            {
+              "id": 2150050,
+              "nom": "Maquillage halloween ado et adulte",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 48,
+              "afficherPrix": true,
+              "reservable": false,
+              "description": [
+                "(effets spéciaux, fluo, artistique, latex faux sang)"
+              ]
+            },
+            {
+              "id": 2150044,
+              "nom": "Maquillage halloween enfant",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 5,
+              "afficherPrix": true,
+              "reservable": false,
+              "description": [
+                "Maquillage enfant -12ans 5€ à 10€",
+                "Toile d'araignées, zombie, clown, sorcière, squelette, vampire ect...",
+                "(maquillage retrait à l'eau)"
+              ]
+            },
+            {
+              "id": 331207,
+              "nom": "Maquillage mariée ( essai compris)",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 110,
+              "afficherPrix": true,
+              "reservable": false,
+              "description": [
+                "Maquillage spécial mariage",
+                "Essai+ maquillage jour j"
+              ]
+            },
+            {
+              "id": 74716,
+              "nom": "Maquillage jour",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 28,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 74717,
+              "nom": "Maquillage soirée",
+              "type": "PRESTATION",
+              "duree": 40,
+              "prix": 38,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15351,
+      "nom": "Soin visage",
+      "ancre": "soin-visage",
+      "nombre": 21,
+      "prixMin": 15,
+      "sousCategories": [
+        {
+          "id": 500411,
+          "nom": "Les pauses beauté",
+          "prestations": [
+            {
+              "id": 2061879,
+              "nom": "Instant zen",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Mini Soin,Détente proposé après votre épilation, vos soins ou toutes autres prestations. Elle comprend une digito pression du visage, l'application d'un masque selon vos besoins et un massage des bras réalisé pendant celui-ci. Durée 10 min. ( De préférence n'être pas maquillé ou légèrement).",
+                "Masque tissus"
+              ]
+            },
+            {
+              "id": 2061880,
+              "nom": "RITUEL ZEN aux quartz rose",
+              "type": "PRESTATION",
+              "duree": 5,
+              "prix": 5,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Digito visage, pour se détendre à petit prix après une autre prestation. ( Durée de 5 minutes)"
+              ]
+            },
+            {
+              "id": 2113457,
+              "nom": "Soin visage flash éclat",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 39,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Soin eclat effet repulpant immediat.",
+                "Resultat ephemere ideal avant un evenement ou soiree"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 500410,
+          "nom": "Analyses",
+          "prestations": [
+            {
+              "id": 2494405,
+              "nom": "Analyse produits de beaute",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Emmenez votre trousse beaute",
+                "Pendant ce rendez vous, vous apprendrez à décripter la composition de vos produits et leurs intéraction avec votre peau"
+              ]
+            },
+            {
+              "id": 2489105,
+              "nom": "Bilan cutané approfondi 60 MIN",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 30,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Analyse de votre peau approfondie, visuelle, tactile, sensitive, routine actuelle, Physiologie, hérédité et contexte environnemental.",
+                "Analyse de votre vanity beauté",
+                "Explication et préconisation de soins adaptés à votre profil.",
+                "Offert pour achat d'un soin ou produits (2 minimum)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16143,
+          "nom": "Nature",
+          "prestations": [
+            {
+              "id": 1941492,
+              "nom": "Option clean ( comédons)",
+              "type": "PRESTATION",
+              "duree": 15,
+              "prix": 15,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 2356530,
+              "nom": "Pureté au charbon (équilibrant, matifiant )",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Soin Equilibrant, régule l'éxcès de sébum Avec masque argile"
+              ]
+            },
+            {
+              "id": 2625947,
+              "nom": "Toutes peaux",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 55,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Soin personnalisé en fonction des besoins de votre peau (avec masque crème)"
+              ]
+            },
+            {
+              "id": 76984,
+              "nom": "Clean",
+              "type": "PRESTATION",
+              "duree": 50,
+              "prix": 55,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Nettoyage de peau",
+                "Avec extraction des comédons"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16144,
+          "nom": "Soin secret du monde",
+          "prestations": [
+            {
+              "id": 2220431,
+              "nom": "5 soins kobido + 1 gratuit",
+              "type": "CURE",
+              "duree": null,
+              "prix": 375,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "5 soins de type kobido et 1 offert",
+                "Redessine les contours de votre visage",
+                "Donne de l'éclat",
+                "Renforce le renouvellement cellulaire",
+                "Tonifie les muscles",
+                "Votre sérum offert"
+              ]
+            },
+            {
+              "id": 2494813,
+              "nom": "Pure détente amazonie",
+              "type": "PRESTATION",
+              "duree": 50,
+              "prix": 55,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 2494817,
+              "nom": "Remodelant aux cristaux ying et yang",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 85,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 414479,
+              "nom": "Shiatsu visage",
+              "type": "PRESTATION",
+              "duree": 25,
+              "prix": 30,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage du visage par pression du bout des doigts sur des points de tension musculaire."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 508997,
+          "nom": "Soins traitant",
+          "prestations": [
+            {
+              "id": 2625934,
+              "nom": "Calmant bleuet anti inflammatoire",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Specifique imperfections cutane et acnee",
+                "Purifie et prévient les infections cutanées (antibactérien) Soulage les rougeurs et les irritations A une action ciblée sur les pores pour une peau nette et purifiée Régule la production de sébum Prévient la perte d'eau transépidermique Nourrit la peau en vitamines et minéraux Rétablit un équilibre hydrolipidique optimal Active le renouvellement cellulaire de l'épiderme Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            },
+            {
+              "id": 2625932,
+              "nom": "Prestige au caviar blanc",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 129,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Ce soin d'exception conjugue l'action du massage remodelant liftant japonnais avec un masque spécifique anti-âge à l'extrait de caviar, aux algues et à l'acide hyaluronique.",
+                "Rend la peau souple et tendue Repulpe et réhausse pour une peau rebondie Lisse les rides d’expressions et les ridules Renforce les cellules de collagène Protège contre les agressions extérieures (UVA, pollution, etc.) Capte et retient l’eau dans la peau Prévient la perte d'eau transépidermique Tonifie et illumine le teint Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            },
+            {
+              "id": 2625939,
+              "nom": "Raffermissant spiruline",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 90,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Redonne fermeté, tonicité et élasticité à la peau Protège contre la desquamation et les rougeurs Maintient un équilibre hydrolipidique optimal Prévient les premiers signes de l'âge Protège contre les agressions extérieurs Débarrasse la peau de ses impuretés dues aux radicaux libres Assure une bonne hydratation de l’épiderme Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            },
+            {
+              "id": 2625935,
+              "nom": "Soin eclaircissant unifiant",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 79,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Contribue à réduire efficacement l’hyperpigmentation Unifie le teint et boost l’éclat naturel Stimule le processus de régénération cellulaire Renforce les cellules de collagène Stimule la production de collagène et d'élastine Lisse les rides et ridules Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            },
+            {
+              "id": 2625938,
+              "nom": "Soin matifiant purifiant au charbon",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Absorbe l'excès de sébum Matifie le teint Régule la production de sébum Purifie efficacement la peau Minimise les pores visiblement Favorise la restauration et la régénération cellulaire Capte et retient l’eau dans la peau Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            },
+            {
+              "id": 2440181,
+              "nom": "Tao zen visage apaisant",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Apporte une hydratation intense et nourrit l’épiderme Adoucit, apaise et calme les inflammations épidermiques Redonne de l'élasticité à la peau Favorise activement la restauration et le renouvellement cellulaire Minimise l’apparition de rides et de ridules Favorise activement la restauration et la régénération cellulaire Capte et retient l’eau dans la peau"
+              ]
+            },
+            {
+              "id": 76987,
+              "nom": "Nourrissant caraibes coco cacao",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Assure une nutrition et une hydratation de l’épiderme à long terme Aide à réduire les éruptions cutanées et irritations mineures Prévient la sécheresse et la desquamation de la peau Nourrit la peau en profondeur Active la production de collagène et d'élastine Renforce les cellules de collagène Booster le renouvellement cellulaire"
+              ]
+            },
+            {
+              "id": 76986,
+              "nom": "Infusion profonde à la rose",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 64,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Masque spécifique à la rose avec pétale de rose",
+                "Uniformise, vivifie et illumine le teint Apporte une forte hydratation à la peau Régule et maintient le niveau d’hydratation cutanée Stimule la production de protéines naturelles Soulage l'inconfort dû aux tiraillements et démangeaisons Prévient la perte d'eau transépidermique Augmente les propriétés protectrices de la peau pour lutter contre les agressions extérieures Soin 3 en 1 avec application sur les yeux et la bouche"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15352,
+      "nom": "Soin corps",
+      "ancre": "soin-corps",
+      "nombre": 23,
+      "prixMin": 35,
+      "sousCategories": [
+        {
+          "id": 500413,
+          "nom": "Minceur",
+          "prestations": [
+            {
+              "id": 2420951,
+              "nom": "Bilan minceur",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 35,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "BILAN PHYSIOLOGIQUE, ALIMENTAIRE, CORPOREL ET PSYCHIQUE POUR déterminer le meilleur accompagnement pour l'atteinte de vos résultats minceur .",
+                "Offert pour l'achat d'une cure"
+              ]
+            },
+            {
+              "id": 2944795,
+              "nom": "Forfait entretien cure minceur 30 min",
+              "type": "CURE",
+              "duree": null,
+              "prix": 400,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Forfait post cure minceur, drainage"
+              ]
+            },
+            {
+              "id": 2581885,
+              "nom": "Minceur active 12 seances 1h (10 + 2 offertes)",
+              "type": "CURE",
+              "duree": null,
+              "prix": 900,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Envie d'un corps plus tonique et d'une peau plus lisse ? Découvrez notre soin minceur",
+                "Une technique experte pour des résultats visibles !",
+                "Draine",
+                "Lisse",
+                "Déstocke la cellulite",
+                "Tonifie et raffermi la peau"
+              ]
+            },
+            {
+              "id": 2456811,
+              "nom": "Minceur active 12 SEANCES 30 MIN (spécial capiton )",
+              "type": "CURE",
+              "duree": null,
+              "prix": 450,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "10 SEANCES + 2 GRATUITES séances ciblée sur une zone en particulier. cuisses, ventre ou fesses."
+              ]
+            },
+            {
+              "id": 1558212,
+              "nom": "Seance minceur active 1H (spécial capitons)",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 90,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Remodèle la silhouette",
+                "Déstocke les capitons et lisse",
+                "Draine les toxines et la circulation",
+                "Ventre fesses jambes"
+              ]
+            },
+            {
+              "id": 3070810,
+              "nom": "Seance minceur entretien",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Seance après une cure minceur ou drainage"
+              ]
+            },
+            {
+              "id": 2565697,
+              "nom": "Turbinada Brésilien (cure 5+1)",
+              "type": "CURE",
+              "duree": null,
+              "prix": 450,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Déloger, décoller, drainer et éliminer les amas graisseux et la cellulite afin de relancer la circulation et remodeler le corps. C'est un massage actif manuel performant car donne des résultats dès la première séance.",
+                "Bilan + 6 seances"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 478437,
+          "nom": "Bien-être",
+          "prestations": [
+            {
+              "id": 76995,
+              "nom": "Détox et légèreté 1h (drainage lymphatique)",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 90,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage anti-jambes lourde , apaise et relance la circulation lymphatique",
+                "A faire en cure de 5 Soins.",
+                "1 soin 90€",
+                "Cure 85€ X 5"
+              ]
+            },
+            {
+              "id": 2401184,
+              "nom": "Détox et légèreté 1H cure( drainage lymphatique) 5+1 OFFERTE",
+              "type": "CURE",
+              "duree": null,
+              "prix": 450,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "5 séances 1H + 1 GRATUITE"
+              ]
+            },
+            {
+              "id": 2565612,
+              "nom": "Fraicheur active (rétention d'eau)",
+              "type": "PRESTATION",
+              "duree": 40,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Soin cryo (froid) pour soulager les jambes douloureuses et gonflées"
+              ]
+            },
+            {
+              "id": 76991,
+              "nom": "Soin dos purifiant",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 70,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Nettoyage du dos gommage vapeur avec extraction des comedons massage",
+                "Duree d'une heure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 500414,
+          "nom": "Massages",
+          "prestations": [
+            {
+              "id": 2028811,
+              "nom": "Aloha touch (lomi lomi )",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 85,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Plongez au cœur des traditions ancestrales hawaïennes avec le massage Lomi Lomi, une véritable invitation à l'évasion. Inspiré par la philosophie « Aloha », ce rituel unique harmonise le corps, l'esprit et l'âme grâce à des mouvements amples et fluides, semblables au va-et-vient des vagues.",
+                "Les avant-bras glissent avec douceur sur la peau, libérant les tensions tout en enveloppant le corps d'une sensation de réconfort absolu. Chaque geste, exécuté avec bienveillance, favorise la détente profonde, la circulation énergénique",
+                "Plus qu'un simple massage, le Lomi Lomi est une expérience sensorielle, un moment suspendu où le temps semble s'arrêter.",
+                "Pour votre confort et l'environnement, nous utilisons des produits bio ou naturels ayant subis de nombreux test allergologiques et non toxiques pour la nature."
+              ]
+            },
+            {
+              "id": 2535911,
+              "nom": "Croisière Caraïbes",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 95,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Une croisière gourmande ou des textures douces et des parfums d'évasion réchaufferont vos sens...",
+                "Soin corps avec shiatsu relaxant du visage"
+              ]
+            },
+            {
+              "id": 2565102,
+              "nom": "Evasion Balinaise",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 135,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Offrez vous un voyage sensoriel au coeur de Bali avec ce massage ancestral alliant douceur et tonicité.",
+                "Grâce à des mouvements profonds mêlant pétrissages, pressions glissées et étirements doux, il relâche les tensions musculaires tout en stimulant la circulation énergétique.",
+                "L'huile parfumée enveloppe la peau, tandis que chaque geste invite à un lâcher-prise total",
+                "Idéal pour revitaliser le corps et apaiser l'esprit, ce soin vous plonge dans une bulle de sérénité comme si vous étiez transporté sur un plage balinaise, bercé par la brise tropicale.",
+                "Pour votre confort et l'environnement, nous utilisons des produits bio ou naturels ayant subis de nombreux test allergologiques et non toxiques pour la nature."
+              ]
+            },
+            {
+              "id": 2628459,
+              "nom": "La vie en rose massage 30 min",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 39,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": []
+            },
+            {
+              "id": 2565115,
+              "nom": "Le Souffle du Tao",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Relaxation énergisante grâce au shiatsu relaxant"
+              ]
+            },
+            {
+              "id": 1877522,
+              "nom": "LE VITALITE (musculaire)",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 85,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage pour evacuer les tensions musculaires special sportifs ou personnes tres tendues"
+              ]
+            },
+            {
+              "id": 1632141,
+              "nom": "Pacific Dream (californien)",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage du dos",
+                "Plongez dans une bulle de douceur avec le massage (PACIFIC DREAM), véritable caresse pour le corps et l'esprit. Inspiré par le massage californien, il se distingue par des mouvements longs fluides et enveloppants venant apaiser les tensions.",
+                "Idéal pour évacuer le stress, retrouver l'harmonie intérieure, il offre un moment de pur bien-être. Ce massage est réalisé à la bougie chaude l'hiver et à l'huile l'été.",
+                "Pour votre confort et l'environnement, nous utilisons des produits bio ou naturels ayant subis de nombreux test allergologiques et non toxiques pour la nature."
+              ]
+            },
+            {
+              "id": 1877524,
+              "nom": "Sérénité du Tibet (pieds)",
+              "type": "PRESTATION",
+              "duree": 20,
+              "prix": 35,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage harmonisant des pieds au bol kansu ayurvédique"
+              ]
+            },
+            {
+              "id": 338940,
+              "nom": "Tendre Cocoon",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 60,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage Prénatal – Douceur et Harmonie pour Future Maman",
+                "Offrez-vous un moment de pure sérénité avec le massage prénatal",
+                "Grâce à des mouvements enveloppants, fluides et apaisants, ce massage s'adapte aux besoins du corps en transformation. Il aide à relâcher les tensions du dos, des jambes et des épaules tout en créant un cocon de bien-être pour maman et bébé",
+                "Idéal pour apaiser le stress, améliorer le sommeil et favoriser la connexion avec son bébé, ce massage est une véritable bulle de douce",
+                "Prenez soin de vous et profitez d'un instant privilégié de détente et d'harmonie",
+                "Pour votre bien être, nous utilisons des produits bio ou naturels ayant subis de nombreux test allergologiques et non toxiques pour la nature."
+              ]
+            },
+            {
+              "id": 2543970,
+              "nom": "Vibration de saison",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 90,
+              "afficherPrix": false,
+              "reservable": false,
+              "description": [
+                "Croisière du moment , se renseigner en institut pour connaitre la destination ou se laisser surprendre"
+              ]
+            },
+            {
+              "id": 244045,
+              "nom": "Pacific Dream (californien) 1H",
+              "type": "PRESTATION",
+              "duree": 60,
+              "prix": 75,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Massage de tout le corps",
+                "Plongez dans une bulle de douceur avec le massage (PACIFIC DREAM), véritable caresse pour le corps et l'esprit. Inspiré par le massage californien, il se distingue par des mouvements longs fluides et enveloppants venant apaiser les tensions.",
+                "Idéal pour évacuer le stress, retrouver l'harmonie intérieure, il offre un moment de pur bien-être.",
+                "Ce massage est réalisé à la bougie chaude l'hiver et à l'huile l'été.",
+                "Pour votre confort et l'environnement, nous utilisons des produits bio ou naturels ayant subis de nombreux test allergologiques et non toxiques pour la nature."
+              ]
+            },
+            {
+              "id": 244030,
+              "nom": "Shanti Champi",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 45,
+              "afficherPrix": true,
+              "reservable": true,
+              "description": [
+                "Détente cranienne nuque et épaule:",
+                "Grâce à des mouvements enveloppants ,rythmés, des pressions douces et des frictions stimulantes, il améliore la circulation sanguine, et le soulagement des tensions musculaires.",
+                "Idéal pour chasser le stress, calmer l'agitation mentale et retrouver un équilibre intérieur tandis que les épaules se relâchent sous des gestes apaisants.",
+                "Laissez-vous transporter par cette expérience relaxante et régénérante."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500415,
+      "nom": "Rituels visage et corps",
+      "ancre": "rituels-visage-et-corps",
+      "nombre": 1,
+      "prixMin": null,
+      "sousCategories": [
+        {
+          "id": 500415,
+          "nom": "Rituels visage et corps",
+          "prestations": [
+            {
+              "id": 2527257,
+              "nom": "Soin drainant visage et corps",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 85,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Soin visage drainant avec massage drainant ventre.",
+                "Possible avec réflexologie en supplément 65€ sur certains créneaux."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 478438,
+      "nom": "Holistique énergétique",
+      "ancre": "holistique-energetique",
+      "nombre": 1,
+      "prixMin": null,
+      "sousCategories": [
+        {
+          "id": 478438,
+          "nom": "Holistique énergétique",
+          "prestations": [
+            {
+              "id": 2565704,
+              "nom": "Magnétisme",
+              "type": "PRESTATION",
+              "duree": 30,
+              "prix": 45,
+              "afficherPrix": false,
+              "reservable": false,
+              "description": [
+                "Soulagement des douleurs (ne se substitut pas à un traitement médical)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 470095,
+      "nom": "Forfait fêtes, évènements",
+      "ancre": "forfait-fetes-evenements",
+      "nombre": 3,
+      "prixMin": null,
+      "sousCategories": [
+        {
+          "id": 470095,
+          "nom": "Forfait fêtes, évènements",
+          "prestations": [
+            {
+              "id": 2989563,
+              "nom": "Rituel Cocoon",
+              "type": "PRESTATION",
+              "duree": 90,
+              "prix": 99,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Massage + soin visage 1h"
+              ]
+            },
+            {
+              "id": 2989568,
+              "nom": "Rituel relax",
+              "type": "PRESTATION",
+              "duree": 45,
+              "prix": 32,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Massage pieds + cranien"
+              ]
+            },
+            {
+              "id": 2989565,
+              "nom": "Rituel velours",
+              "type": "PRESTATION",
+              "duree": 75,
+              "prix": 52,
+              "afficherPrix": false,
+              "reservable": true,
+              "description": [
+                "Beaute des pieds + manucure"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99857,
+      "nom": "Carte de fidélité et abonnement",
+      "ancre": "carte-de-fidelite-et-abonnement",
+      "nombre": 1,
+      "prixMin": null,
+      "sousCategories": [
+        {
+          "id": 99857,
+          "nom": "Carte de fidélité et abonnement",
+          "prestations": [
+            {
+              "id": 2429889,
+              "nom": "Fid nature ce 10%",
+              "type": "CARTE_FIDELITE",
+              "duree": null,
+              "prix": 0,
+              "afficherPrix": false,
+              "reservable": false,
+              "description": [
+                "10% sur vos prestations épilations et vos produits grâce a votre ce",
+                "St gobain sur presentation du badge.",
+                "Valable pour le salarie et ses ayants droit directs"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

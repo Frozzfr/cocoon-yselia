@@ -1,0 +1,19 @@
+/* Point d'entrée des styles communs aux deux versions. Chaque page charge d'abord les couleurs de sa version
+   (v1/couleurs.css ou v2/couleurs.css), puis ce fichier. Pour ajouter une feuille : créer le fichier puis l'importer ici. */
+@import url("variables.css?v=88cfdb2");
+@import url("base.css?v=88cfdb2");
+@import url("boutons.css?v=88cfdb2");
+@import url("sections.css?v=88cfdb2");
+@import url("en-tete.css?v=88cfdb2");
+@import url("pied-de-page.css?v=88cfdb2");
+@import url("composants/produit.css?v=88cfdb2");
+@import url("composants/diaporama.css?v=88cfdb2");
+@import url("composants/actualite.css?v=88cfdb2");
+@import url("composants/infos-pratiques.css?v=88cfdb2");
+@import url("composants/module-kalendes.css?v=88cfdb2");
+@import url("pages/accueil.css?v=88cfdb2");
+@import url("pages/nous-connaitre.css?v=88cfdb2");
+@import url("pages/soins.css?v=88cfdb2");
+@import url("pages/boutique.css?v=88cfdb2");
+@import url("pages/partenaires.css?v=88cfdb2");
+@import url("pages/reservation.css?v=88cfdb2");

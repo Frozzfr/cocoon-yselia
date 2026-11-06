@@ -1,0 +1,15 @@
+/* Polices et échelle des titres, communes aux deux versions.
+   Les couleurs sont dans v1/couleurs.css et v2/couleurs.css : tous les composants n'emploient que leurs rôles.
+   Points de rupture utilisés partout : 1020px (tablette, menu burger) et 700px (mobile). */
+:root {
+  color-scheme: light;
+
+  --display: "Cormorant Garamond", "Cormorant", Garamond, "Times New Roman", serif;
+  --body: "Jost", "Futura", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.75rem;
+  --step-3: 2.4rem;
+  --step-4: clamp(2.6rem, 6vw, 4.2rem);
+}

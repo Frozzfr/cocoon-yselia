@@ -1,0 +1,61 @@
+.rdv-hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: start; }
+.rdv-intro { display: grid; gap: 22px; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: etape; }
+.steps li { counter-increment: etape; display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: center; }
+.steps li::before { content: counter(etape); width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--decor); display: grid; place-items: center; font-family: var(--display); font-size: 1.4rem; color: var(--accent-texte); }
+
+/* Encart carte cadeau */
+.card.cadeau { background: var(--cadeau); color: var(--clair-sur-sombre); border-color: var(--cadeau); }
+.card.cadeau .eyebrow { color: var(--titre-sur-sombre); }
+.card.cadeau h2 { color: #fff; }
+.card.cadeau .btn { background: var(--clair-sur-sombre); color: var(--cadeau); border-color: var(--clair-sur-sombre); }
+
+/* Carte des soins (données : _data/carte.json, recherche : assets/js/modules/recherche-soins.js) */
+.carte-recherche { width: 360px; max-width: 100%; }
+.carte-recherche input { width: 100%; font: 400 1rem var(--body); padding: 12px 18px; border: 1px solid var(--line); border-radius: 99px; background: var(--paper); color: var(--principal); }
+.carte-recherche input:focus { outline: 2px solid var(--accent-texte); outline-offset: 2px; }
+
+.carte-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
+.carte-nav a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border: 1px solid var(--line); border-radius: 99px; background: var(--paper); text-decoration: none; font-size: .9rem; color: var(--ink-soft); }
+.carte-nav a:hover { border-color: var(--accent-texte); color: var(--principal); }
+.carte-nav span { font-size: .75rem; color: var(--taupe); font-variant-numeric: tabular-nums; }
+
+.carte { display: grid; gap: 56px; }
+.carte-categorie { scroll-margin-top: 110px; display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 40px; align-items: start; }
+.carte-categorie-tete { position: sticky; top: 110px; display: grid; gap: 6px; padding-top: 4px; }
+.carte-categorie-tete h3 { font-size: clamp(1.8rem, 3vw, 2.3rem); }
+.carte-categorie-tete p { font-size: .9rem; color: var(--taupe); }
+.carte-groupes { display: grid; gap: 16px; }
+.carte-groupe { background: var(--carte); border: 1px solid var(--line); border-radius: 22px; padding: 10px 26px; }
+.carte-groupe-titre { margin: 14px 0 0; font-family: var(--body); font-size: .78rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-texte); }
+.carte-liste { list-style: none; margin: 0; padding: 0; }
+
+.soin { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 24px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.soin:last-child { border-bottom: 0; }
+.soin-infos { display: grid; gap: 4px; min-width: 0; }
+.soin-nom { font-family: var(--display); font-size: 1.3rem; line-height: 1.2; }
+.soin-details { font-size: .88rem; color: var(--ink-soft); }
+.soin-details summary { cursor: pointer; list-style: none; }
+.soin-details summary::-webkit-details-marker { display: none; }
+.soin-details summary::after { content: " +"; color: var(--accent-texte); font-weight: 500; }
+.soin-details[open] summary { display: none; }
+.soin-details p + p { margin-top: 2px; }
+.soin-meta { display: flex; align-items: center; gap: 16px; justify-content: flex-end; }
+.soin-duree { font-size: .82rem; color: var(--taupe); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.soin-prix { min-width: 5.5em; text-align: right; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.soin-sur-demande { font-size: .8rem; color: var(--taupe); max-width: 9em; text-align: right; }
+
+.carte-vide { padding: 28px; text-align: center; border: 1px dashed var(--decor); border-radius: 18px; color: var(--ink-soft); }
+.carte-maj { margin-top: 32px; font-size: .82rem; color: var(--taupe); }
+
+@media (max-width: 1020px) {
+  .rdv-hero { grid-template-columns: 1fr; }
+  .carte-categorie { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .carte-categorie-tete { position: static; }
+}
+@media (max-width: 700px) {
+  .carte-groupe { padding: 6px 18px; }
+  .soin { grid-template-columns: minmax(0, 1fr); }
+  .soin-meta { justify-content: flex-start; flex-wrap: wrap; }
+  .soin-prix { min-width: 0; text-align: left; }
+}

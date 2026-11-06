@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Maquettes · Le Cocoon d'Ysélia</title>
+    <meta name="description" content="Trois versions de couleurs du futur site du Cocoon d'Ysélia, institut de beauté à Ribécourt-Dreslincourt." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f6f5f4" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png?v=88cfdb2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" />
+    <style>
+      /* Page de choix des versions : neutre et sobre, elle présente les deux propositions à la cliente.
+         Les pastilles reprennent les couleurs principales de v1/, v2/ et v3/couleurs.css. */
+      :root {
+        color-scheme: light;
+        --bg: #f6f5f4;
+        --card: #ffffff;
+        --ink: #26211f;
+        --soft: #6b6461;
+        --line: #e2dedb;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+      .wrap { max-width: 980px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 56px 40px; }
+      header { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 24px; align-items: center; margin-bottom: 44px; }
+      header img { width: 112px; height: 112px; border-radius: 50%; background: #fff; }
+      h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 4vw, 2.3rem); line-height: 1.15; font-weight: 600; letter-spacing: -.01em; text-wrap: balance; }
+      header p { margin: 0; max-width: 62ch; color: var(--soft); }
+      .choices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+      .choice { display: grid; grid-template-rows: auto 1fr; overflow: hidden; background: var(--card); border: 1px solid var(--line); border-radius: 12px; color: inherit; text-decoration: none; transition: border-color .2s, transform .2s; }
+      .choice:hover { border-color: var(--ink); transform: translateY(-2px); }
+      .preview { position: relative; height: 190px; display: grid; place-items: center; }
+      .preview .word { font-family: "Cormorant Garamond", Garamond, serif; font-style: italic; font-weight: 500; font-size: 2.7rem; }
+      .p1 { background: linear-gradient(180deg, #faf7f2 0 22%, #eaeee5 22% 100%); }
+      .p1 .word { color: #4f3e50; }
+      .p2 { background: linear-gradient(180deg, #a8b8a2 0 22%, #f5f1ea 22% 100%); }
+      .p2 .word { color: #8a6f35; }
+      .p3 { background: linear-gradient(180deg, #ffffff 0 22%, #fbf6f7 22% 100%); }
+      .p3 .word { color: #4a2c3a; }
+      .swatches { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 6px; }
+      .swatches i { width: 18px; height: 18px; border-radius: 50%; border: 1px solid rgba(0, 0, 0, .08); }
+      .body { display: grid; gap: 8px; align-content: start; padding: 20px 22px 24px; }
+      .body small { font-size: .8rem; letter-spacing: .04em; color: var(--soft); }
+      .body h2 { margin: 0; font-size: 1.3rem; }
+      .body p { margin: 0; color: var(--soft); }
+      .go { margin-top: 6px; font-weight: 600; }
+      .note { display: grid; gap: 6px; margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line); font-size: .88rem; color: var(--soft); }
+      .note p { margin: 0; }
+      :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+      @media (prefers-reduced-motion: reduce) { .choice { transition: none; } .choice:hover { transform: none; } }
+      @media (max-width: 900px) { .choices { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+      @media (max-width: 680px) {
+        header { grid-template-columns: minmax(0, 1fr); }
+        header img { width: 84px; height: 84px; }
+        .choices { grid-template-columns: minmax(0, 1fr); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img src="assets/img/logo.png?v=88cfdb2" alt="Logo du Cocoon d'Ysélia" width="112" height="112" />
+        <div>
+          <h1>Le Cocoon d'Ysélia : maquettes du futur site</h1>
+          <p>Le même site en trois versions de couleurs : prise de rendez-vous en ligne, carte des soins, boutique et actualités. Choisissez une version pour la parcourir.</p>
+        </div>
+      </header>
+
+      <div class="choices">
+        <a class="choice" href="v1/">
+          <div class="preview p1">
+            <span class="word">Le Cocoon</span>
+            <span class="swatches" aria-hidden="true"><i style="background: #faf7f2"></i><i style="background: #eaeee5"></i><i style="background: #8f9e87"></i><i style="background: #6b5a6d"></i><i style="background: #4f3e50"></i></span>
+          </div>
+          <div class="body">
+            <small>Version 1</small>
+            <h2>Ivoire &amp; mauve</h2>
+            <p>Fond ivoire, titres et boutons mauve grisé, bandes vert eucalyptus et pied de page vert sauge.</p>
+            <span class="go">Voir la version 1 →</span>
+          </div>
+        </a>
+        <a class="choice" href="v2/">
+          <div class="preview p2">
+            <span class="word">Le Cocoon</span>
+            <span class="swatches" aria-hidden="true"><i style="background: #a8b8a2"></i><i style="background: #f5f1ea"></i><i style="background: #dce3d8"></i><i style="background: #c6a96b"></i><i style="background: #3a3a36"></i></span>
+          </div>
+          <div class="body">
+            <small>Version 2</small>
+            <h2>Vert &amp; doré</h2>
+            <p>En-tête vert sauge, fond sable, surtitres et filets dorés, boutons et pied de page brun profond.</p>
+            <span class="go">Voir la version 2 →</span>
+          </div>
+        </a>
+        <a class="choice" href="v3/">
+          <div class="preview p3">
+            <span class="word">Le Cocoon</span>
+            <span class="swatches" aria-hidden="true"><i style="background: #fbf6f7"></i><i style="background: #f1e2e7"></i><i style="background: #d9b8c4"></i><i style="background: #8c5a72"></i><i style="background: #4a2c3a"></i></span>
+          </div>
+          <div class="body">
+            <small>Version 3</small>
+            <h2>Douceur prune</h2>
+            <p>La première proposition : fond rosé, en-tête et cartes blancs, encre prune, accents mauves et arches rose poudré.</p>
+            <span class="go">Voir la version 3 →</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="note">
+        <p>Maquettes non définitives : les photos, les prix et les textes soulignés en pointillés sont provisoires.</p>
+        <p>Réalisées par LSA Solution · mise à jour le 1er novembre 2026</p>
+      </div>
+    </div>
+  </body>
+</html>

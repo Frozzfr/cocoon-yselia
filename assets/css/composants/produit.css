@@ -1,0 +1,25 @@
+/* Carte produit (accueil et boutique) */
+.grid-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 22px; }
+.product { background: var(--carte); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+.product .ph { aspect-ratio: 1 / 1; }
+.p-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; }
+.p-name { font-family: var(--display); font-size: 1.35rem; line-height: 1.15; }
+.p-meta { font-size: .85rem; color: var(--ink-soft); }
+.p-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 10px; }
+.price { font-weight: 500; font-variant-numeric: tabular-nums; }
+.add { font: 500 .85rem var(--body); padding: 9px 14px; border-radius: 99px; border: 1px solid var(--principal); background: transparent; color: var(--principal); text-decoration: none; white-space: nowrap; }
+.add:hover { background: var(--principal); color: #fff; }
+.p-institut { font-size: .82rem; color: var(--ink-soft); text-align: right; }
+
+/* Photo du produit, entière sur fond blanc */
+.ph-photo { background: #fff; }
+.ph-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+
+/* Visuel d'attente : flacon, pot ou coffret dessiné en CSS, teinté par --teinte */
+.ph-produit { background: linear-gradient(150deg, var(--teinte, var(--bande)), var(--ground)); }
+.bottle { width: 34%; aspect-ratio: 1 / 1.9; border-radius: 14px 14px 10px 10px; background: linear-gradient(90deg, rgba(255,255,255,.75), rgba(255,255,255,.35)); border: 1px solid rgba(255,255,255,.9); position: relative; box-shadow: 0 14px 30px -14px color-mix(in srgb, var(--sombre) 40%, transparent); }
+.bottle::before { content: ""; position: absolute; left: 32%; right: 32%; top: -18%; height: 18%; background: var(--principal); border-radius: 4px 4px 0 0; opacity: .8; }
+.bottle--pot { width: 46%; aspect-ratio: 1.3 / 1; border-radius: 10px; }
+.bottle--pot::before { left: -4%; right: -4%; top: -22%; height: 24%; border-radius: 8px; }
+.bottle--coffret { width: 58%; aspect-ratio: 1.4 / 1; border-radius: 6px; background: linear-gradient(135deg, var(--paper), color-mix(in srgb, var(--bande) 60%, var(--paper))); }
+.bottle--coffret::before { left: 46%; right: 46%; top: 0; height: 100%; background: var(--decor); border-radius: 0; opacity: .8; }
