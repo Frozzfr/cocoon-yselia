@@ -3,20 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Nos soins et rendez-vous · Le Cocoon d'Ysélia</title>
-    <meta
-      name="description"
-      content="La carte des soins du Cocoon d'Ysélia (épilations, soins du visage et du corps, massages, mains et pieds, regard…) avec durées et tarifs. Réservation en ligne 7 jours sur 7."
-    />
+    <title>Réservation en ligne · Le Cocoon d'Ysélia</title>
+    <meta name="description" content="Réservez votre soin au Cocoon d'Ysélia en ligne, 7 jours sur 7. Commandez aussi nos produits ou offrez une carte cadeau." />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#faf7f2" />
-    <link rel="icon" type="image/png" href="../assets/img/logo.png?v=88cfdb2" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png?v=9710723" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" />
-    <link rel="stylesheet" href="couleurs.css?v=88cfdb2" />
-    <link rel="stylesheet" href="../assets/css/styles.css?v=88cfdb2" />
-    <script type="module" src="../assets/js/main.js?v=88cfdb2"></script>
+    <link rel="stylesheet" href="couleurs.css?v=9710723" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=9710723" />
+    <script type="module" src="assets/js/main.js?v=9710723"></script>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -29,13 +26,13 @@
     <header class="top">
       <div class="wrap">
         <a class="brand" href="index.html" aria-label="Le Cocoon d'Ysélia, accueil">
-          <img src="../assets/img/logo.png?v=88cfdb2" alt="" width="54" height="54" />
+          <img src="assets/img/logo.png?v=9710723" alt="" width="54" height="54" />
           <span>Le Cocoon d'Ysélia</span>
         </a>
         <nav class="main" aria-label="Navigation principale">
           <a href="index.html">Accueil</a>
           <a href="nous-connaitre.html">Nous connaître</a>
-          <a href="soins.html" aria-current="page">Nos soins</a>
+          <a href="soins.html">Nos soins</a>
           <a href="boutique.html">Boutique</a>
           <a href="actualites.html">Actualités</a>
           <a href="partenaires.html">Partenaires</a>
@@ -64,7 +61,7 @@
         <nav class="mobile-nav" id="mnav" aria-label="Menu mobile">
           <a href="index.html">Accueil</a>
           <a href="nous-connaitre.html">Nous connaître</a>
-          <a href="soins.html" aria-current="page">Nos soins</a>
+          <a href="soins.html">Nos soins</a>
           <a href="boutique.html">Boutique</a>
           <a href="actualites.html">Actualités</a>
           <a href="partenaires.html">Partenaires</a>
@@ -74,64 +71,35 @@
 
     <main id="contenu">
       <section class="block">
-        <div class="wrap rdv-hero">
-          <div class="rdv-intro">
-            <span class="eyebrow">Nos soins &amp; rendez-vous</span>
+        <div class="wrap">
+          <div class="head">
+            <span class="eyebrow">Réservation en ligne</span>
             <h1>Réservez <em>votre moment</em></h1>
             <p class="lead">
-              Choisissez votre soin dans la carte ci-dessous : le bouton « Réserver » ouvre directement l'agenda de l'institut. Vous recevez la confirmation par SMS ou par e-mail.
-            </p>
-            <ol class="steps">
-              <li>Choisissez votre soin dans la carte</li>
-              <li>Sélectionnez le jour et l'heure qui vous conviennent</li>
-              <li>Confirmez, c'est réservé</li>
-            </ol>
-            <div><a class="btn btn-primary btn-lg" href="#carte">Voir la carte des soins</a></div>
-          </div>
-          <div class="card cadeau">
-            <span class="eyebrow">Une idée cadeau</span>
-            <h2 class="h3">Offrez un moment au Cocoon</h2>
-            <p>Les cartes cadeaux sont disponibles en ligne, valables sur tous les soins de l'institut.</p>
-            <a class="btn btn-start" href="reservation.html?page=gift">Offrir une carte cadeau</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Composant : CarteSoins -->
-      <section class="block tint" id="carte" aria-labelledby="titre-carte">
-        <div class="wrap">
-          <div class="head row">
-            <div class="head head--flat">
-              <span class="eyebrow">La carte</span>
-              <h2 id="titre-carte">Tous nos soins</h2>
-              <p class="lead" data-carte-total>Réservables en ligne. Tarifs TTC.</p>
-            </div>
-            <div class="carte-recherche">
-              <label class="sr-only" for="recherche-soin">Rechercher un soin</label>
-              <input type="search" id="recherche-soin" placeholder="Rechercher un soin : massage, sourcils…" autocomplete="off" data-recherche-soins />
-            </div>
-          </div>
-
-          <!-- Navigation, carte et date de mise à jour : remplies par assets/js/modules/carte-soins.js depuis assets/donnees/carte.json -->
-          <nav class="carte-nav" aria-label="Catégories de soins" data-carte-nav></nav>
-
-          <div class="carte" data-carte-soins>
-            <p class="carte-vide" data-carte-vide hidden>Aucun soin ne correspond à votre recherche. Essayez un autre mot, ou <a href="tel:+33777777158">appelez-nous</a>.</p>
-            <p class="carte-vide" data-carte-erreur hidden>
-              La carte des soins n'a pas pu s'afficher. <a href="https://www.kalendes.com/site/Lecocoondyselia" target="_blank" rel="noopener">Voir les soins sur Kalendes</a>
+              Choisissez votre soin puis votre créneau : la réservation est confirmée par SMS ou par e-mail. Vous pouvez aussi commander nos produits ou offrir une carte cadeau.
             </p>
           </div>
 
-          <p class="carte-maj" data-carte-maj></p>
+          <!-- Composant : ModuleKalendes -->
+          <div class="kalendes-cadre">
+            <div id="kalendes-widget-container" data-kalendes-host="lecocoondyselia"></div>
+          </div>
+          <p class="kalendes-secours">
+            Le module ne s'affiche pas ? <a href="https://www.kalendes.com/site/Lecocoondyselia" target="_blank" rel="noopener">Ouvrir la réservation sur Kalendes</a>
+          </p>
         </div>
       </section>
+
+      <!-- Ordre imposé par Kalendes : la configuration doit être chargée avant widget.js -->
+      <script src="assets/js/kalendes-config.js?v=9710723"></script>
+      <script src="https://www.kalendes.com/site/scripts/widget.js"></script>
     </main>
 
     <!-- Composant : PiedDePage -->
     <footer>
       <div class="wrap">
         <div class="brandf">
-          <img src="../assets/img/logo.png?v=88cfdb2" alt="" width="84" height="84" />
+          <img src="assets/img/logo.png?v=9710723" alt="" width="84" height="84" />
           <p>Institut de beauté à Ribécourt-Dreslincourt.<br />Soins du visage, massages, onglerie, épilation.</p>
         </div>
         <div>
