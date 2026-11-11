@@ -1,19 +1,18 @@
 /* Point d'entrée des styles communs aux deux versions. Chaque page charge d'abord les couleurs de sa version
    (couleurs.css), puis ce fichier. Pour ajouter une feuille : créer le fichier puis l'importer ici. */
-@import url("variables.css?v=9710723");
-@import url("base.css?v=9710723");
-@import url("boutons.css?v=9710723");
-@import url("sections.css?v=9710723");
-@import url("en-tete.css?v=9710723");
-@import url("pied-de-page.css?v=9710723");
-@import url("composants/produit.css?v=9710723");
-@import url("composants/diaporama.css?v=9710723");
-@import url("composants/actualite.css?v=9710723");
-@import url("composants/infos-pratiques.css?v=9710723");
-@import url("composants/module-kalendes.css?v=9710723");
-@import url("pages/accueil.css?v=9710723");
-@import url("pages/nous-connaitre.css?v=9710723");
-@import url("pages/soins.css?v=9710723");
-@import url("pages/boutique.css?v=9710723");
-@import url("pages/partenaires.css?v=9710723");
-@import url("pages/reservation.css?v=9710723");
+@import url("variables.css?v=f740c7d");
+@import url("base.css?v=f740c7d");
+@import url("boutons.css?v=f740c7d");
+@import url("sections.css?v=f740c7d");
+@import url("en-tete.css?v=f740c7d");
+@import url("pied-de-page.css?v=f740c7d");
+@import url("composants/diaporama.css?v=f740c7d");
+@import url("composants/actualite.css?v=f740c7d");
+@import url("composants/infos-pratiques.css?v=f740c7d");
+@import url("composants/module-kalendes.css?v=f740c7d");
+@import url("pages/accueil.css?v=f740c7d");
+@import url("pages/nous-connaitre.css?v=f740c7d");
+@import url("pages/soins.css?v=f740c7d");
+@import url("pages/boutique.css?v=f740c7d");
+@import url("pages/partenaires.css?v=f740c7d");
+@import url("pages/reservation.css?v=f740c7d");

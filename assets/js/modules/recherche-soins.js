@@ -1,5 +1,5 @@
-// Recherche instantanée dans la carte des soins (soins.html), sans tenir compte des accents.
-// Appelée par carte-soins.js une fois la carte affichée.
+// Recherche instantanée dans la carte des soins (soins.html) et le catalogue de la boutique (boutique.html), sans tenir compte des accents.
+// Appelée par carte-soins.js ou boutique.js une fois la liste affichée.
 const normaliser = (texte) => texte.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export function initRechercheSoins() {

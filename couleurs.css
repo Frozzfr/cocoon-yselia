@@ -29,14 +29,4 @@
   --line: #d3d5cc;              /* traits et bordures : gris sauge */
   --titre: #4f3e50;             /* titres h1 à h3 : mauve aubergine */
   --todo: #74390f;              /* repères « à compléter » de la maquette */
-
-  /* Teintes des visuels d'attente des produits (flacons, pots, coffrets), une par produit */
-  --teinte-1: #e8e1e3;          /* sérum éclat visage */
-  --teinte-2: #dfe5da;          /* crème hydratante jour */
-  --teinte-3: #f1ece4;          /* huile de massage relaxante */
-  --teinte-4: #e3dde5;          /* gommage corps au sucre */
-  --teinte-5: #e6eadf;          /* bougie de massage */
-  --teinte-6: #ece6e8;          /* huile soin des cuticules */
-  --teinte-7: #d9e0d3;          /* crème mains réparatrice */
-  --teinte-8: #d8cfd8;          /* coffret cocooning visage */
 }

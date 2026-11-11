@@ -7,13 +7,13 @@
     <meta name="description" content="Les produits de l'institut à Ribécourt-Dreslincourt : maquillage, bijoux, parfums, soins. Commande en ligne et retrait sur place." />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#faf7f2" />
-    <link rel="icon" type="image/png" href="assets/img/logo.png?v=9710723" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png?v=f740c7d" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" />
-    <link rel="stylesheet" href="couleurs.css?v=9710723" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=9710723" />
-    <script type="module" src="assets/js/main.js?v=9710723"></script>
+    <link rel="stylesheet" href="couleurs.css?v=f740c7d" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=f740c7d" />
+    <script type="module" src="assets/js/main.js?v=f740c7d"></script>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -26,7 +26,7 @@
     <header class="top">
       <div class="wrap">
         <a class="brand" href="index.html" aria-label="Le Cocoon d'Ysélia, accueil">
-          <img src="assets/img/logo.png?v=9710723" alt="" width="54" height="54" />
+          <img src="assets/img/logo.png?v=f740c7d" alt="" width="54" height="54" />
           <span>Le Cocoon d'Ysélia</span>
         </a>
         <nav class="main" aria-label="Navigation principale">
@@ -76,21 +76,43 @@
             <span class="eyebrow">Boutique en ligne</span>
             <h1>Les produits <em>de l'institut</em></h1>
             <p class="lead">
-              Les produits de l'institut, à découvrir sur place. Certains se commandent aussi en ligne et se retirent à l'institut.
+              Les produits de l'institut, à découvrir sur place. Beaucoup se commandent aussi en ligne : le bouton « Acheter » ouvre directement la boutique de l'institut, et vous retirez votre commande sur place.
             </p>
           </div>
 
           <div class="perks">
             <div class="perk"><strong>Retrait à l'institut</strong><span>Commandez en ligne, puis venez chercher votre commande sur place</span></div>
             <div class="perk"><strong>Stock vérifié</strong><span>Le bouton « Acheter » ouvre le module de l'institut, relié à son stock</span></div>
-            <div class="perk"><strong>Conseils personnalisés</strong><span>Une question sur un produit ? Appelez-nous</span></div>
+            <div class="perk"><strong>Conseils personnalisés</strong><span>Une question sur un produit ? <a href="tel:+33777777158">Appelez-nous</a></span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Composant : CatalogueBoutique -->
+      <section class="block tint" id="catalogue" aria-labelledby="titre-catalogue">
+        <div class="wrap">
+          <div class="head row">
+            <div class="head head--flat">
+              <span class="eyebrow">Le catalogue</span>
+              <h2 id="titre-catalogue">Tous nos produits</h2>
+              <p class="lead" data-boutique-total>À commander en ligne ou à découvrir en institut. Tarifs TTC.</p>
+            </div>
+            <div class="carte-recherche">
+              <label class="sr-only" for="recherche-produit">Rechercher un produit</label>
+              <input type="search" id="recherche-produit" placeholder="Rechercher un produit : bougie, vernis…" autocomplete="off" data-recherche-soins />
+            </div>
           </div>
 
-          <!-- Filtres et produits : remplis par assets/js/modules/boutique.js depuis assets/donnees/boutique.json -->
-          <div class="filters" data-filtres role="group" aria-label="Filtrer les produits"></div>
-          <p class="carte-vide" data-boutique-erreur hidden>Les produits n'ont pas pu s'afficher. <a href="reservation.html?page=buy">Voir la boutique dans le module de réservation</a></p>
-          <!-- Composant : CarteProduit (répété) -->
-          <div class="grid-products" data-produits></div>
+          <!-- Navigation, catalogue et date de mise à jour : remplis par assets/js/modules/boutique.js depuis assets/donnees/boutique.json -->
+          <nav class="carte-nav" aria-label="Gammes de produits" data-boutique-nav></nav>
+
+          <div class="carte" data-boutique>
+            <p class="carte-vide" data-carte-vide hidden>Aucun produit ne correspond à votre recherche. Essayez un autre mot, ou <a href="tel:+33777777158">appelez-nous</a>.</p>
+            <p class="carte-vide" data-boutique-erreur hidden>
+              Les produits n'ont pas pu s'afficher. <a href="reservation.html?page=buy">Voir la boutique dans le module de l'institut</a>
+            </p>
+          </div>
+
           <p class="carte-maj" data-boutique-maj></p>
         </div>
       </section>
@@ -100,7 +122,7 @@
     <footer>
       <div class="wrap">
         <div class="brandf">
-          <img src="assets/img/logo.png?v=9710723" alt="" width="84" height="84" />
+          <img src="assets/img/logo.png?v=f740c7d" alt="" width="84" height="84" />
           <p>Institut de beauté à Ribécourt-Dreslincourt.<br />Soins du visage, massages, onglerie, épilation.</p>
         </div>
         <div>

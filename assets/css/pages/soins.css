@@ -10,7 +10,7 @@
 .card.cadeau h2 { color: #fff; }
 .card.cadeau .btn { background: var(--clair-sur-sombre); color: var(--cadeau); border-color: var(--clair-sur-sombre); }
 
-/* Carte des soins (données : _data/carte.json, recherche : assets/js/modules/recherche-soins.js) */
+/* Carte des soins, et catalogue de la boutique sur le même modèle (données : assets/donnees/carte.json et boutique.json, recherche : assets/js/modules/recherche-soins.js) */
 .carte-recherche { width: 360px; max-width: 100%; }
 .carte-recherche input { width: 100%; font: 400 1rem var(--body); padding: 12px 18px; border: 1px solid var(--line); border-radius: 99px; background: var(--paper); color: var(--principal); }
 .carte-recherche input:focus { outline: 2px solid var(--accent-texte); outline-offset: 2px; }

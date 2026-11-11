@@ -8,7 +8,7 @@
 .card { background: var(--carte); border: 1px solid var(--line); border-radius: 22px; padding: 28px; display: grid; gap: 14px; }
 .card-text { color: var(--ink-soft); }
 /* Cartes et encadrés (--carte) : traits plus foncés pour rester visibles sur leur fond coloré */
-.card, .door, .product, .perk, .partner, .slider, .carte-groupe { --line: color-mix(in srgb, var(--principal) 16%, var(--carte)); }
+.card, .door, .perk, .partner, .slider, .carte-groupe { --line: color-mix(in srgb, var(--principal) 16%, var(--carte)); }
 
 /* Arche : forme signature, utilisée pour les photos (attente en vert sauge, --decor) */
 .arch { border-radius: 999px 999px 18px 18px; overflow: hidden; position: relative; background:

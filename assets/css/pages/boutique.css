@@ -1,12 +1,8 @@
-.perks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 36px; }
+/* Boutique : le catalogue reprend la présentation de la carte des soins (pages/soins.css) */
+.perks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .perk { padding: 18px 20px; border-radius: 16px; background: var(--carte); border: 1px solid var(--line); display: grid; gap: 4px; }
 .perk strong { font-weight: 500; }
 .perk span { font-size: .9rem; color: var(--ink-soft); }
-
-/* Filtres par catégorie (comportement : assets/js/modules/boutique.js) */
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
-.filter { font: 400 .9rem var(--body); padding: 8px 16px; border-radius: 99px; border: 1px solid var(--line); background: var(--paper); color: var(--ink-soft); cursor: pointer; }
-.filter[aria-pressed="true"] { background: var(--principal); color: #fff; border-color: var(--principal); }
 
 @media (max-width: 700px) {
   .perks { grid-template-columns: 1fr; }
